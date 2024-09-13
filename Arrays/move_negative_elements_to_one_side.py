@@ -7,7 +7,7 @@ def rearrange(arr):
             negatives.append(element)
         else:
             positives.append(element)
-        
+            
     return negatives + positives
     
 def rearrange2(arr):

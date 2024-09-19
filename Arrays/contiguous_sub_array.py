@@ -10,7 +10,7 @@ def result(arr):
         max_sum = max(max_sum, current_sum)
         return max_sum 
 
-arr = [1,9,0]
+arr = [1,9,10,4,5]
 print(result(arr))
     
     

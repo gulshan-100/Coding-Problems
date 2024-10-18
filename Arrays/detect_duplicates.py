@@ -4,8 +4,7 @@ def duplicates(arr):
             if arr[i] == arr[j]:
                 return arr[i]
             
-def duplicates2(arr):
- def findDuplicate(self, nums):
+def findDuplicate(nums):
     tortoise = nums[0]
     rare = nums[0]
         
@@ -24,4 +23,4 @@ def duplicates2(arr):
     return rare
        
 arr = [1, 3, 4, 2, 2] 
-print(duplicates2(arr))   
+print(findDuplicate(arr))   

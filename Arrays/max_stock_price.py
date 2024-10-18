@@ -17,7 +17,7 @@ def multiple_max_profit(prices):
     max_profit = 0
     for i in range(0, n):
         if prices[i] > prices[i-1]:
-            max_profit = prices[i] - prices[i-1]
+            max_profit += prices[i] - prices[i-1]
     return max_profit 
             
 prices =[100,134,56,45,2,100]

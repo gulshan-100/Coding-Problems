@@ -1,0 +1,1 @@
+''.join(p) for p in perm

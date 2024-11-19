@@ -7,6 +7,9 @@ def approach_two(arr, element):
             return True
     return False
 
+def approach_three(arr, element):
+    return element in set(arr)
+
 arr = [1,2,3,4,5]
 element = 7
 print(appraoch_one(arr, element))

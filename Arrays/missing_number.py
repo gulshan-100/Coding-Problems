@@ -1,5 +1,5 @@
 def missing_number(array):
-    n = len(array)
+    n = max(array)
     s = n * (n+1) // 2
     result = s - sum(array)
     return result

@@ -1,6 +1,6 @@
 from collections import Counter
 
-def approach_one(a1, a2):
+def approach_one(a1, a2): 
     count_a1 = Counter(a1)
     count_a2 = Counter(a2)
     

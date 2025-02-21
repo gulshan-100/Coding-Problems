@@ -5,7 +5,7 @@ def kmost_frequency(array, k):
             counts[element] += 1 
         else:
             counts[element] = 1 
-    # Sort elements by frequency
+
     sorted_counts = sorted(counts.items(), key=lambda item: item[1], reverse=True)
     n = 0 
     result = []

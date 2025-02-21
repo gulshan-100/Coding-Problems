@@ -24,5 +24,4 @@ prices =[100,134,56,45,2,100]
 print(single_max_profit(prices))
 
 prices = [100, 134, 56, 45, 2, 100, 150, 120]
-print(multiple_max_profit(prices))
-            
+print(multiple_max_profit(prices))            

@@ -3,7 +3,7 @@ def product(arr):
     for element in arr:
         product *= element
     return product
-
+    
 arr  = [1,2,3]
 print(product(arr)) # 6
         

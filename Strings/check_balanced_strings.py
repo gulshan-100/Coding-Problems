@@ -6,7 +6,7 @@ class Solution(object):
         for i in range(len(num)):
             digit = int(num[i])  # Convert the character to an integer
             if i % 2 == 0:
-                even_product += digit
+                even_product += digit   
             else:
                 odd_product += digit
     

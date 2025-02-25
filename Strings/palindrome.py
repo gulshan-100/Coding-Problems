@@ -1,8 +1,8 @@
-def check_palindrome(string):
-    return string == string[::-1]
+def check_palindrome(string): 
+    return string == string[::-1] 
 
-string = "abba"
-string2 = "Gulshan"
+string = "abba" 
+string2 = "Gulshan" 
 
-print(check_palindrome(string))
-print(check_palindrome(string2))
+print(check_palindrome(string)) 
+print(check_palindrome(string2)) 

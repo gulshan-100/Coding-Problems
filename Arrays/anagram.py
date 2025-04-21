@@ -5,7 +5,7 @@ def check_anagram(s, t):
     second_str = Counter(t)
     return first_str == second_str
 
-#better approach 
+#another approach 
 def check_anagram(s, t):
     return sorted(s) == sorted(t)
 
